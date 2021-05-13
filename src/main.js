@@ -12,7 +12,7 @@ import axios from "axios";
 import '@/mock/mock.js'
 Vue.config.productionTip = false
 Vue.use(ElementUI)
-Vue.prototype.$http = axios
+Vue.prototype.$axios = axios
 
 new Vue({
   router,
